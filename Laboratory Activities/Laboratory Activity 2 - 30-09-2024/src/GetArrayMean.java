@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class GetArrayMean {
-    // Function to calculate the mean of an integer array
     public static double getArrayMean(int[] array) {
         int sum = 0;
         for (int num : array) {
@@ -21,6 +20,7 @@ public class GetArrayMean {
             System.out.print("Enter number: ");
             numbers[i] = userinput.nextInt();
         }
+        userinput.close();
 
         double mean = getArrayMean(numbers);
         System.out.println("Mean of array is: " + mean);
