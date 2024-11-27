@@ -2,9 +2,9 @@ package Shapes;
 
 public class Main {
     public static void main (String[] args){
-        Square square = new Square(10);
-        Rectangle rectangle = new Rectangle(8,12);
-        Triangle triangle = new Triangle(10,12,15);
+        Square square = new Square(8);
+        Rectangle rectangle = new Rectangle(10,15);
+        Triangle triangle = new Triangle(11,12,13);
 
         //collection of shapes
         Shape[] shapes = {square,rectangle,triangle};
